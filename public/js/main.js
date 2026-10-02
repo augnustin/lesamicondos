@@ -5,10 +5,11 @@
   var K = '#141413', BLUE = '#1381c4', YELLOW = '#fecd35', PINK = '#eb597c', GREEN = '#14963d', GROUT = '#ffffff';
   var TOP = [[K, BLUE, YELLOW], [K, PINK, K], [YELLOW, K, GREEN]];
   var BLACK1 = [[K, K, K]], BLACK2 = [[K, K, K], [K, K, K]], BLACK3 = [[K, K, K], [K, K, K], [K, K, K]];
-  var LOWER = { pz: [[K, K, BLUE], [GREEN, K, K]], px: [[K, K, PINK], [K, K, K]], mx: BLACK2, mz: BLACK2 };
+  var LOWER = { pz: [[K, K, K], [K, GREEN, K]], px: [[BLUE, K, K], [K, K, PINK]], mx: BLACK2, mz: BLACK2 };
   var UPPER = { pz: BLACK1, px: BLACK1, mx: BLACK1, mz: BLACK1 };
 
-  var YAW = -36 * Math.PI / 180, PITCH = 34 * Math.PI / 180, TOP_OFFSET = -13 * Math.PI / 180;
+  // Angles ajustés sur le logo original (assets/Logo cube seul.png)
+  var YAW = -60 * Math.PI / 180, PITCH = 28 * Math.PI / 180, TOP_OFFSET = 27 * Math.PI / 180;
   var TURN_MS = 650, HOLD_MS = 350, REVERSE_SPEED = 1.8;
 
   function rotY(p, a){ var c = Math.cos(a), s = Math.sin(a); return [c*p[0] + s*p[2], p[1], -s*p[0] + c*p[2]]; }
@@ -51,7 +52,7 @@
   }
 
   function draw(ctx, size, zoom, angle){
-    var scale = size * zoom * 64.5 / 360, cx = size / 2, cy = size / 2 + size * 6 / 360;
+    var scale = size * zoom * 68 / 360, cx = size / 2, cy = size / 2 + size * 6 / 360;
     var cp = Math.cos(PITCH), sp = Math.sin(PITCH);
     ctx.clearRect(0, 0, size, size);
     block(-1.5, 0.5, BLACK3, LOWER, 0).concat(block(0.5, 1.5, TOP, UPPER, TOP_OFFSET + angle)).forEach(function(poly){
