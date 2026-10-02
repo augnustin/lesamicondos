@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Les Amicondos — tiers-lieu inclusif et familial</title>
+<meta name="description" content="Lieu d&#x27;accueil temporaire dédié aux jeunes en situation de handicap neurologique, installé sur le site Macondo à Montarnaud, aux portes de Montpellier.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Les Amicondos">
+<meta property="og:url" content="http://lesamicondos.fr/">
+<meta property="og:title" content="Les Amicondos — tiers-lieu inclusif et familial">
+<meta property="og:description" content="Lieu d&#x27;accueil temporaire dédié aux jeunes en situation de handicap neurologique, installé sur le site Macondo à Montarnaud, aux portes de Montpellier.">
+<meta property="og:image" content="http://lesamicondos.fr/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo Les Amicondos, un tiers-lieu inclusif et familial : répit, ateliers, rencontres, partage">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="public/fonts/baloo-2-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="public/fonts/barlow-condensed-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="public/fonts/patrick-hand-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="public/img/logo-texte.webp" as="image" fetchpriority="high">
+<style>/* devanagari */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51ncANwr.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51fcANwr.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51bcANwr.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("public/fonts/baloo-2-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51ncANwr.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51fcANwr.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51bcANwr.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("public/fonts/baloo-2-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51ncANwr.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51fcANwr.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51bcANwr.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("public/fonts/baloo-2-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51ncANwr.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51fcANwr.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51bcANwr.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("public/fonts/baloo-2-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51ncANwr.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51fcANwr.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baloo2/v23/wXKrE3kTposypRyd51bcANwr.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("public/fonts/baloo-2-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873z3nWuZEC.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873z3jWuZEC.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873z3bWuQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3nWuZEC.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3jWuZEC.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("public/fonts/barlow-condensed-700-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Patrick Hand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/patrickhand/v25/LDI1apSQOAYtSuYWp8ZhfYe8UcLLq7s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Patrick Hand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/patrickhand/v25/LDI1apSQOAYtSuYWp8ZhfYe8UMLLq7s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Patrick Hand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("public/fonts/patrick-hand-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+body{margin:0;font-family:'Baloo 2','Trebuchet MS',sans-serif;color:#141414;background:#fffdf8}
+a{color:#0040a1}a:hover{color:#cc0347}
+h1,h2,h3,p{text-wrap:pretty}
+.hand{font-family:'Patrick Hand','Comic Sans MS',cursive}
+.cond{font-family:'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.04em}
+.btn{transition:transform .15s ease}
+.btn:hover{transform:translateY(-2px)}
+.navlink{color:#141414;text-decoration:none}
+.navlink:hover{color:#cc0347}
+input,textarea,select{font:inherit}
+.mobile-menu{display:none}
+.mobile-menu summary{list-style:none;cursor:pointer}
+.mobile-menu summary::-webkit-details-marker{display:none}
+.mobile-menu summary:focus-visible,.mobile-nav a:focus-visible{outline:3px solid #0040a1;outline-offset:3px}
+.mobile-icon{display:grid;gap:5px;width:24px}
+.mobile-icon span{display:block;height:2px;background:#141414;transition:transform .18s ease,opacity .18s ease}
+.mobile-menu[open] .mobile-icon span:first-child{transform:translateY(7px) rotate(45deg)}
+.mobile-menu[open] .mobile-icon span:nth-child(2){opacity:0}
+.mobile-menu[open] .mobile-icon span:last-child{transform:translateY(-7px) rotate(-45deg)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media (max-width: 900px){
+  .navlinks{display:none !important}
+  .mobile-menu{display:block;position:relative}
+  .mobile-menu summary{display:grid;place-items:center;width:48px;height:48px;border:2px solid #141414;border-radius:6px;background:#fff}
+  .mobile-nav{position:absolute;top:calc(100% + 12px);right:0;z-index:10;display:flex;flex-direction:column;gap:2px;width:min(290px,calc(100vw - 40px));padding:12px;background:#fff;border:2px solid #141414;box-shadow:5px 5px 0 #f4a603}
+  .mobile-nav a{padding:12px 14px;color:#141414;text-decoration:none;font-size:17px;font-weight:600}
+  .mobile-nav a:hover{background:#fff3f6;color:#cc0347}
+  .mobile-nav .mobile-contact{margin-top:6px;background:#cc0347;color:#fff;border-radius:3px}
+  .g2,.g3,.g4{grid-template-columns:minmax(0,1fr) !important}
+  .hero-title{font-size:44px !important}
+  .sec{padding-left:20px !important;padding-right:20px !important}
+  .deco{display:none !important}
+  .hero-logo{width:240px !important}
+  .hero-logo-wrap{order:-1}
+  header.sec{gap:12px;padding-top:12px;padding-bottom:12px}
+}
+@media (max-width: 480px){
+  header.sec>a{gap:8px !important}
+  header.sec>a canvas{width:44px !important;height:44px !important}
+  header.sec .cond{font-size:23px !important}
+  .hero-title{font-size:36px !important}
+  .hero-logo{width:min(200px,70vw) !important}
+}
+.news-full{display:none}
+.news-excerpt{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.news-card img{transition:transform .3s ease}
+.news-card:hover img{transform:scale(1.03)}
+.news-modal{width:min(920px,calc(100vw - 32px));max-height:calc(100vh - 32px);padding:0;border:3px solid #141414;border-radius:28px;background:#fffdf8;color:#141414;box-shadow:10px 10px 0 #f4a603;overflow:auto}
+.news-modal::backdrop{background:rgba(20,20,20,.72)}
+.news-modal-media{display:block;background:#141414}
+.news-modal-media img{display:block;width:100%;max-height:75vh;object-fit:contain;margin:0 auto}
+.news-modal-body{display:flex;flex-direction:column;gap:12px;padding:28px 36px 36px}
+.news-modal-body h3{margin:0;font-size:34px;line-height:1.1;font-weight:800}
+.news-modal-body p{margin:0;font-size:18px;line-height:1.6;color:#2b2b2b}
+.news-modal-close{position:sticky;top:12px;float:right;margin:12px 12px -60px 0;z-index:1;width:48px;height:48px;border:3px solid #141414;border-radius:999px;background:#ffffff;color:#141414;font-size:28px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.news-modal-close:hover{color:#cc0347}
+.news-modal-close:focus-visible{outline:3px solid #0040a1;outline-offset:3px}
+@media (max-width: 600px){.news-modal{border-radius:20px}.news-modal-body{padding:22px 20px 28px}.news-modal-body h3{font-size:26px}}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div style="width: 100%; position: relative; overflow: hidden; background: #fffdf8">
+
+<!-- ============ NAV ============ -->
+<header style="position: relative; z-index: 3; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 18px 48px; background: #ffffff; border-bottom: 3px solid #141414" class="sec">
+<a href="#top" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #141414">
+<canvas class="amicondos-cube" data-zoom="1.12" aria-hidden="true" style="display: block; width: 52px; height: 52px; margin: -2px -3px"></canvas>
+<span style="display: flex; flex-direction: column; line-height: 1">
+<span class="hand" style="font-size: 18px">Les</span>
+<span class="cond" style="font-size: 28px; font-weight: 700; letter-spacing: .02em">Amicondos</span>
+</span>
+</a>
+<nav class="navlinks" aria-label="Navigation principale" style="display: flex; align-items: center; gap: 28px; font-size: 17px; font-weight: 600">
+<a class="navlink" href="#presentation">Présentation</a>
+<a class="navlink" href="#video">La vidéo</a>
+<a class="navlink" href="#documents">Charte &amp; livret</a>
+<a class="navlink" href="#actualites">Actualités</a>
+<a class="btn" href="#contact" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 999px; background: #cc0347; color: #ffffff; text-decoration: none; font-weight: 700">Nous contacter</a>
+</nav>
+<details class="mobile-menu">
+<summary aria-label="Ouvrir le menu"><span class="mobile-icon" aria-hidden="true"><span></span><span></span><span></span></span><span class="sr-only">Menu</span></summary>
+<nav class="mobile-nav" aria-label="Navigation mobile">
+<a href="#presentation">Présentation</a>
+<a href="#video">La vidéo</a>
+<a href="#documents">Charte &amp; livret</a>
+<a href="#actualites">Actualités</a>
+<a class="mobile-contact" href="#contact">Nous contacter</a>
+</nav>
+</details>
+</header>
+
+<!-- ============ HERO ============ -->
+<section id="top" class="sec" style="position: relative; padding: 72px 48px 56px; background: #ffffff">
+<div class="deco" aria-hidden="true" style="position: absolute; left: -60px; top: -40px; width: 420px; height: 230px; background: #006c32; transform: rotate(-18deg); border-radius: 0 0 160px 0; opacity: .95"></div>
+<div class="deco" aria-hidden="true" style="position: absolute; right: 70px; top: 36px; width: 64px; height: 64px; background: #141414; border-radius: 14px; transform: rotate(-24deg)"></div>
+<div class="deco" aria-hidden="true" style="position: absolute; right: -40px; top: 40px; width: 150px; height: 110px; background: #cc0347; border-radius: 20px; transform: rotate(22deg)"></div>
+<div class="deco" aria-hidden="true" style="position: absolute; right: 150px; top: 150px; width: 38px; height: 38px; background: #f4a603; border-radius: 9px; transform: rotate(24deg)"></div>
+<div class="deco" aria-hidden="true" style="position: absolute; right: -30px; top: 230px; width: 110px; height: 130px; background: #0040a1; border-radius: 20px; transform: rotate(22deg)"></div>
+<div class="deco" aria-hidden="true" style="position: absolute; left: -30px; bottom: 60px; width: 90px; height: 110px; background: #141414; border-radius: 18px; transform: rotate(22deg)"></div>
+<div class="deco" aria-hidden="true" style="position: absolute; left: 70px; bottom: 30px; width: 60px; height: 60px; background: #cc0347; border-radius: 14px; transform: rotate(22deg)"></div>
+
+<div class="g2" style="position: relative; z-index: 2; max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 24px; padding-top: 40px">
+<div style="position: relative; align-self: flex-start; padding: 8px 28px 10px">
+<svg aria-hidden="true" viewBox="0 0 400 100" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%"><path d="M14 22 L40 14 L120 10 L220 6 L330 8 L372 4 L380 12 L392 10 L386 22 L396 30 L388 40 L398 52 L384 60 L394 72 L380 80 L390 90 L360 92 L260 94 L150 96 L60 92 L20 96 L28 86 L6 80 L22 70 L4 60 L18 50 L2 40 L20 32 L6 26 Z" fill="#cc0347"></path></svg>
+<span class="hand" style="position: relative; font-size: 26px; color: #ffffff">Un tiers-lieu inclusif et familial</span>
+</div>
+<h1 class="hero-title" style="margin: 0; font-size: 64px; line-height: 1.02; font-weight: 800; letter-spacing: -0.01em">Un lieu pour eux.<br>Une respiration pour leurs proches.</h1>
+<p style="margin: 0; font-size: 21px; line-height: 1.5; max-width: 540px; color: #2b2b2b">Lieu d'accueil temporaire dédié aux jeunes en situation de <strong>handicap neurologique</strong>, installé sur le site Macondo à Montarnaud, aux portes de Montpellier.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 14px; padding-top: 6px">
+<a class="btn" href="#video" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 26px; border-radius: 999px; border: 3px solid #141414; background: #ffffff; color: #141414; font-size: 18px; font-weight: 700; text-decoration: none">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="#cc0347"><path d="M7 4.5v15l13-7.5z"></path></svg>
+Voir la vidéo</a>
+<a class="btn" href="#contact" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border-radius: 999px; background: #141414; color: #ffffff; font-size: 18px; font-weight: 700; text-decoration: none">Nous contacter</a>
+</div>
+</div>
+<div class="hero-logo-wrap" style="display: flex; justify-content: center">
+<div class="hero-logo" style="width: 360px; display: flex; flex-direction: column; align-items: center">
+<canvas class="amicondos-cube" role="img" aria-label="Logo Les Amicondos : un Rubik's cube aux couleurs de l'association" style="display: block; width: 100%; height: auto; aspect-ratio: 1; cursor: pointer"></canvas>
+<img src="public/img/logo-texte.webp" width="640" height="532" fetchpriority="high" alt="Les Ami Condos" style="display: block; width: 89%; height: auto">
+</div>
+</div>
+</div>
+
+<!-- 4 couleurs -->
+<div style="position: relative; z-index: 2; max-width: 1200px; margin: 56px auto 0; display: flex; gap: 6px" aria-hidden="true">
+<div style="flex-grow: 1; height: 7px; border-radius: 6px; background: #cc0347"></div>
+<div style="flex-grow: 1; height: 7px; border-radius: 6px; background: #0040a1"></div>
+<div style="flex-grow: 1; height: 7px; border-radius: 6px; background: #006c32"></div>
+<div style="flex-grow: 1; height: 7px; border-radius: 6px; background: #f4a603"></div>
+</div>
+<div class="g4" style="position: relative; z-index: 2; max-width: 1200px; margin: 28px auto 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px">
+<div style="display: flex; align-items: center; gap: 14px">
+<div style="width: 44px; height: 44px; flex-shrink: 0; border-radius: 12px; background: #cc0347; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"></path><path d="M5 10v10h14V10"></path><path d="M12 17s-3-1.8-3-3.6A1.5 1.5 0 0 1 12 12.6a1.5 1.5 0 0 1 3 .8C15 15.2 12 17 12 17z"></path></svg></div>
+<div style="display: flex; flex-direction: column"><span class="cond" style="font-size: 24px; font-weight: 700">Répit</span><span style="font-size: 15px; color: #444">pour les familles</span></div>
+</div>
+<div style="display: flex; align-items: center; gap: 14px">
+<div style="width: 44px; height: 44px; flex-shrink: 0; border-radius: 12px; background: #0040a1; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 0 18c1.2 0 1.8-.8 1.8-1.7 0-1.2-1-1.6-1-2.6 0-.9.7-1.5 1.6-1.5H17a4 4 0 0 0 4-4c0-4.5-4-8.2-9-8.2z"></path><circle cx="7.5" cy="11" r="1"></circle><circle cx="10.5" cy="7" r="1"></circle><circle cx="15" cy="7.5" r="1"></circle></svg></div>
+<div style="display: flex; flex-direction: column"><span class="cond" style="font-size: 24px; font-weight: 700">Ateliers</span><span style="font-size: 15px; color: #444">créer, apprendre, faire</span></div>
+</div>
+<div style="display: flex; align-items: center; gap: 14px">
+<div style="width: 44px; height: 44px; flex-shrink: 0; border-radius: 12px; background: #006c32; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="8" r="3"></circle><circle cx="17" cy="8" r="3"></circle><path d="M2 20c0-3 2.2-5 5-5s5 2 5 5"></path><path d="M12 20c0-3 2.2-5 5-5s5 2 5 5"></path></svg></div>
+<div style="display: flex; flex-direction: column"><span class="cond" style="font-size: 24px; font-weight: 700">Rencontres</span><span style="font-size: 15px; color: #444">tisser du lien</span></div>
+</div>
+<div style="display: flex; align-items: center; gap: 14px">
+<div style="width: 44px; height: 44px; flex-shrink: 0; border-radius: 12px; background: #f4a603; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#141414" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8.5s-2.5-1.6-2.5-3.2A1.3 1.3 0 0 1 12 4.6a1.3 1.3 0 0 1 2.5.7c0 1.6-2.5 3.2-2.5 3.2z"></path><path d="M3 13l3 7h4l2-3"></path><path d="M21 13l-3 7h-4l-2-3"></path><path d="M6 20l-1-8"></path><path d="M18 20l1-8"></path></svg></div>
+<div style="display: flex; flex-direction: column"><span class="cond" style="font-size: 24px; font-weight: 700">Partage</span><span style="font-size: 15px; color: #444">un projet collectif</span></div>
+</div>
+</div>
+</section>
+
+<!-- ============ PRÉSENTATION ============ -->
+<section id="presentation" class="sec" style="position: relative; padding: 96px 48px; background: #fffdf8">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px">
+<div class="g2" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px; align-items: start">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<span class="hand" style="font-size: 26px; color: #cc0347">C'est quoi ?</span>
+<h2 style="margin: 0; font-size: 48px; line-height: 1.05; font-weight: 800">Les Amicondos, on vous présente</h2>
+<svg aria-hidden="true" width="220" height="14" viewBox="0 0 220 14"><path d="M3 9 C 60 3, 150 3, 217 7" stroke="#f4a603" stroke-width="6" fill="none" stroke-linecap="round"></path></svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 18px; font-size: 20px; line-height: 1.6; color: #2b2b2b">
+<p style="margin: 0">L'association Les Amicondos est implantée sur le site <strong>Macondo à Montarnaud (34750)</strong> depuis 2024. Ce tiers-lieu innovant, inclusif et familial dispose de nombreux supports pour proposer un large panel d'activités.</p>
+<p style="margin: 0">À travers des activités motivantes et éducatives, l'objectif est de <strong>créer un moment de répit pour les familles</strong>, d'accompagner les jeunes dans leurs rêves et intérêts personnels, tout en les amenant à construire les compétences nécessaires à leur autonomie future.</p>
+</div>
+</div>
+
+<!-- Pourquoi / Pour qui / L'idée -->
+<div class="g3" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px">
+<article style="position: relative; overflow: hidden; display: flex; flex-direction: column; gap: 14px; padding: 36px 32px; border-radius: 28px; background: #cc0347; color: #ffffff">
+<div aria-hidden="true" style="position: absolute; right: -18px; top: -18px; width: 70px; height: 70px; border-radius: 14px; background: #f4a603; transform: rotate(20deg)"></div>
+<h3 style="margin: 0; font-size: 34px; font-weight: 800">Pourquoi ?</h3>
+<p style="margin: 0; font-size: 22px; line-height: 1.3; font-weight: 700">Parce que trop de familles restent sans solution.</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.55">Des enfants, adolescents et jeunes adultes en situation de handicap neurologique sont aujourd'hui sans solution de place stable. Et derrière eux, des parents et des proches aidants qui ont besoin de souffler.</p>
+<p class="hand" style="margin: 0; margin-top: auto; font-size: 22px">Les Amicondos sont nés de ce constat.</p>
+</article>
+<article style="position: relative; overflow: hidden; display: flex; flex-direction: column; gap: 14px; padding: 36px 32px; border-radius: 28px; background: #006c32; color: #ffffff">
+<div aria-hidden="true" style="position: absolute; right: -18px; top: -18px; width: 70px; height: 70px; border-radius: 14px; background: #cc0347; transform: rotate(20deg)"></div>
+<h3 style="margin: 0; font-size: 34px; font-weight: 800">Pour qui ?</h3>
+<p style="margin: 0; font-size: 22px; line-height: 1.3; font-weight: 700">Les jeunes, et ceux qui les accompagnent.</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.55">Des enfants, adolescents et jeunes adultes en situation de handicap neurologique, notamment lorsqu'ils n'ont pas de solution de placement stable. Mais aussi leurs parents et leurs proches aidants.</p>
+<p class="hand" style="margin: 0; margin-top: auto; font-size: 22px">Prendre soin de ceux qui accompagnent au quotidien.</p>
+</article>
+<article style="position: relative; overflow: hidden; display: flex; flex-direction: column; gap: 14px; padding: 36px 32px; border-radius: 28px; background: #0040a1; color: #ffffff">
+<div aria-hidden="true" style="position: absolute; right: -18px; top: -18px; width: 70px; height: 70px; border-radius: 14px; background: #006c32; transform: rotate(20deg)"></div>
+<h3 style="margin: 0; font-size: 34px; font-weight: 800">L'idée</h3>
+<p style="margin: 0; font-size: 22px; line-height: 1.3; font-weight: 700">Créer un lieu où l'on accueille <span class="hand" style="font-size: 28px; color: #f4a603">autrement.</span></p>
+<p style="margin: 0; font-size: 17px; line-height: 1.55">Un lieu temporaire, inclusif et familial, où les jeunes peuvent être accueillis ponctuellement. Un espace pour participer, découvrir, créer, apprendre et rencontrer.</p>
+<p class="hand" style="margin: 0; margin-top: auto; font-size: 22px">Et pendant ce temps, un temps de répit aux familles.</p>
+</article>
+</div>
+</div>
+</section>
+
+<!-- ============ OÙ ? ============ -->
+<section class="sec" style="position: relative; padding: 96px 48px; background: #ffffff">
+<div class="g2" style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<span class="hand" style="font-size: 26px; color: #cc0347">Où ?</span>
+<span class="cond" style="font-size: 22px; font-weight: 700; color: #006c32; letter-spacing: .12em">Au tiers-lieu</span>
+<h2 style="margin: 0; font-size: 72px; line-height: .95; font-weight: 800; letter-spacing: .01em">MACONDO</h2>
+<p style="margin: 14px 0 0; font-size: 22px; line-height: 1.45; color: #0040a1; font-weight: 700">Les Amicondos viennent prendre place dans ce lieu vivant.</p>
+</div>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 18px; font-size: 20px; line-height: 1.4">
+<li style="display: flex; gap: 16px; align-items: flex-start"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#006c32" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg><span><strong>Aux portes de Montpellier</strong>, au Mas Dieu, à Montarnaud (34750)</span></li>
+<li style="display: flex; gap: 16px; align-items: flex-start"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#006c32" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0"><path d="M12 3l5 7h-3l4 6H6l4-6H7z"></path><path d="M12 16v5"></path></svg><span><strong>7 hectares</strong> de garrigue</span></li>
+<li style="display: flex; gap: 16px; align-items: flex-start"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#006c32" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0"><rect x="4" y="3" width="16" height="18" rx="2"></rect><path d="M9 21v-4h6v4"></path><path d="M8 7h2M14 7h2M8 11h2M14 11h2"></path></svg><span><strong>3 000 m²</strong> aménagés : bureaux, ateliers, cuisine, potager, espaces de production partagés</span></li>
+<li style="display: flex; gap: 16px; align-items: flex-start"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#006c32" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0"><circle cx="8" cy="8" r="3"></circle><circle cx="17" cy="9" r="2.5"></circle><path d="M2 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><path d="M14.5 14.5c.8-.3 1.6-.5 2.5-.5 2.8 0 5 2.2 5 5"></path></svg><span>Un écosystème <strong>associatif et coopératif</strong> engagé dans la transition écologique et sociale</span></li>
+</ul>
+</div>
+</section>
+
+<!-- ============ VIDÉO ============ -->
+<section id="video" class="sec" style="position: relative; padding: 96px 48px; background: #0040a1; color: #ffffff; overflow: hidden">
+<div class="deco" aria-hidden="true" style="position: absolute; right: -40px; top: -30px; width: 170px; height: 150px; border-radius: 26px; background: #cc0347; transform: rotate(22deg)"></div>
+<div class="deco" aria-hidden="true" style="position: absolute; right: 150px; top: 110px; width: 90px; height: 90px; border-radius: 18px; background: #006c32; transform: rotate(-16deg)"></div>
+<div class="deco" aria-hidden="true" style="position: absolute; left: -30px; bottom: 50px; width: 80px; height: 80px; border-radius: 16px; background: #141414; transform: rotate(38deg)"></div>
+<div class="deco" aria-hidden="true" style="position: absolute; left: 70px; bottom: 20px; width: 40px; height: 40px; border-radius: 9px; background: #f4a603; transform: rotate(32deg)"></div>
+<div style="position: relative; max-width: 1040px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 16px; text-align: center">
+<div style="position: relative; padding: 8px 34px 12px">
+<svg aria-hidden="true" viewBox="0 0 400 100" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%"><path d="M14 22 L40 14 L120 10 L220 6 L330 8 L372 4 L380 12 L392 10 L386 22 L396 30 L388 40 L398 52 L384 60 L394 72 L380 80 L390 90 L360 92 L260 94 L150 96 L60 92 L20 96 L28 86 L6 80 L22 70 L4 60 L18 50 L2 40 L20 32 L6 26 Z" fill="#ffffff"></path></svg>
+<h2 style="position: relative; margin: 0; font-size: 48px; font-weight: 800; color: #141414">En vidéo</h2>
+</div>
+<p style="margin: 0; font-size: 20px; line-height: 1.5; max-width: 620px">Quelques minutes pour découvrir le projet, le lieu et celles et ceux qui le font vivre.</p>
+<a data-yt="3jp5ofR3fl8" href="https://www.youtube.com/watch?v=3jp5ofR3fl8" target="_blank" rel="noopener" aria-label="Regarder la vidéo de présentation des Amicondos sur YouTube" style="position: relative; display: block; width: 100%; margin-top: 20px; aspect-ratio: 16 / 9; border-radius: 28px; overflow: hidden; border: 6px solid #ffffff; background: #cc0347; box-shadow: 14px 14px 0 #f4a603">
+<img src="public/img/video-miniature.webp" srcset="public/img/video-miniature-800.webp 800w, public/img/video-miniature.webp 1600w" sizes="(max-width: 1296px) 100vw, 1200px" width="1600" height="708" loading="lazy" decoding="async" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center">
+<span style="width: 112px; height: 112px; border-radius: 999px; background: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(0,0,0,.25)"><svg aria-hidden="true" width="46" height="46" viewBox="0 0 24 24" fill="#cc0347"><path d="M8 5v14l11-7z"></path></svg></span>
+</span>
+<span class="cond" style="position: absolute; left: 24px; bottom: 20px; padding: 6px 14px; border-radius: 10px; background: #141414; color: #ffffff; font-size: 18px; font-weight: 700">Présentation · YouTube</span>
+</a>
+</div>
+</section>
+
+<!-- ============ DOCUMENTS ============ -->
+<section id="documents" class="sec" style="position: relative; padding: 96px 48px; background: #fffdf8">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 720px">
+<span class="hand" style="font-size: 26px; color: #006c32">Pour mieux nous connaître</span>
+<h2 style="margin: 0; font-size: 48px; line-height: 1.05; font-weight: 800">Charte du projet &amp; livret d'accueil</h2>
+<p style="margin: 0; font-size: 19px; line-height: 1.55; color: #2b2b2b">Nos valeurs, notre façon d'accueillir, et tout ce qu'il faut savoir avant de franchir la porte. À lire, à télécharger, à partager.</p>
+</div>
+<div class="g3" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px">
+<article style="display: flex; flex-direction: column; gap: 16px; padding: 32px; border-radius: 28px; background: #ffffff; border: 3px solid #141414; box-shadow: 8px 8px 0 #0040a1">
+<img src="public/img/doc-presentation.webp" width="185" height="175" loading="lazy" decoding="async" alt="" style="width: 96px; height: 90px; object-fit: contain">
+<h3 class="cond" style="margin: 0; font-size: 30px; font-weight: 700">Présentation</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #333">Le projet des Amicondos en quelques pages.</p>
+<a class="btn" href="pdfs/Presentation-Les-Amicondos-lq.pdf" target="_blank" rel="noopener" style="margin-top: auto; align-self: flex-start; display: inline-flex; align-items: center; gap: 10px; min-height: 46px; padding: 0 20px; border-radius: 999px; background: #0040a1; color: #ffffff; font-weight: 700; text-decoration: none"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11"></path><path d="M7 10l5 5 5-5"></path><path d="M5 20h14"></path></svg>Télécharger (PDF)</a>
+</article>
+<article style="display: flex; flex-direction: column; gap: 16px; padding: 32px; border-radius: 28px; background: #ffffff; border: 3px solid #141414; box-shadow: 8px 8px 0 #cc0347">
+<img src="public/img/doc-charte.webp" width="165" height="175" loading="lazy" decoding="async" alt="" style="width: 96px; height: 90px; object-fit: contain">
+<h3 class="cond" style="margin: 0; font-size: 30px; font-weight: 700">Charte du projet</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #333">Les valeurs et engagements partagés par les familles, les pros et les bénévoles.</p>
+<a class="btn" href="pdfs/Charte-ethique-encadrants-Les-Amicondos.pdf" target="_blank" rel="noopener" style="margin-top: auto; align-self: flex-start; display: inline-flex; align-items: center; gap: 10px; min-height: 46px; padding: 0 20px; border-radius: 999px; background: #cc0347; color: #ffffff; font-weight: 700; text-decoration: none"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11"></path><path d="M7 10l5 5 5-5"></path><path d="M5 20h14"></path></svg>Télécharger (PDF)</a>
+</article>
+<article style="display: flex; flex-direction: column; gap: 16px; padding: 32px; border-radius: 28px; background: #ffffff; border: 3px solid #141414; box-shadow: 8px 8px 0 #006c32">
+<img src="public/img/doc-livret.webp" width="230" height="175" loading="lazy" decoding="async" alt="" style="width: 110px; height: 90px; object-fit: contain">
+<h3 class="cond" style="margin: 0; font-size: 30px; font-weight: 700">Livret d'accueil</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #333">Le déroulé d'une journée, l'organisation, les infos pratiques pour les familles.</p>
+<a class="btn" href="pdfs/Livret-dAccueil-Les-Amicondos-Google-Docs.pdf" target="_blank" rel="noopener" style="margin-top: auto; align-self: flex-start; display: inline-flex; align-items: center; gap: 10px; min-height: 46px; padding: 0 20px; border-radius: 999px; background: #006c32; color: #ffffff; font-weight: 700; text-decoration: none"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11"></path><path d="M7 10l5 5 5-5"></path><path d="M5 20h14"></path></svg>Télécharger (PDF)</a>
+</article>
+</div>
+</div>
+</section>
+
+<!-- ============ ACTUALITÉS ============ -->
+<section id="actualites" class="sec" style="position: relative; padding: 96px 48px; background: #ffffff; border-top: 3px solid #141414">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<span class="hand" style="font-size: 26px; color: #0040a1">Quoi de neuf ?</span>
+<h2 style="margin: 0; font-size: 48px; line-height: 1.05; font-weight: 800">Actualités</h2>
+</div>
+<div style="display: flex; gap: 12px">
+<a class="btn" href="https://www.instagram.com/amicondos34/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; min-height: 46px; padding: 0 18px; border-radius: 999px; border: 3px solid #141414; color: #141414; font-weight: 700; text-decoration: none"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"></circle></svg>@amicondos34</a>
+<a class="btn" href="https://www.facebook.com/p/Les-Amicondos-61593495990401/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; min-height: 46px; padding: 0 18px; border-radius: 999px; border: 3px solid #141414; color: #141414; font-weight: 700; text-decoration: none"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h-3a4 4 0 0 0-4 4v3H5v4h3v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>Facebook</a>
+</div>
+</div>
+<div class="g3" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; align-items: stretch">
+<article class="news-card" style="display: flex; flex-direction: column; border-radius: 28px; overflow: hidden; background: #fffdf8; border: 3px solid #141414">
+<a href="#actu-inauguration" data-news="actu-inauguration" aria-label="Lire : Inauguration des Amicondos" style="display: block; height: 220px; overflow: hidden; background: #e9e4da"><img class="news-img" src="public/img/actualites/inauguration-18-septembre-800.webp" data-full="public/img/actualites/inauguration-18-septembre.webp" width="800" height="442" decoding="async" alt="Les jeunes et l’équipe des Amicondos sur scène, bras levés, lors de l’inauguration" loading="lazy" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 30%"></a>
+<div style="display: flex; flex-direction: column; gap: 10px; flex: 1; padding: 24px 26px 28px">
+<span class="cond news-date" style="font-size: 16px; font-weight: 700; color: #cc0347">18 septembre 2026</span>
+<h3 class="news-title" style="margin: 0; font-size: 24px; line-height: 1.2; font-weight: 800"><a href="#actu-inauguration" data-news="actu-inauguration" style="color: inherit; text-decoration: none">Inauguration des Amicondos</a></h3>
+<p class="news-excerpt" style="margin: 0; font-size: 17px; line-height: 1.5; color: #333">Après 3 ans de préparation de ce projet, cette journée nous a permis de montrer concrètement le potentiel de ce lieu d’accueil. Au-delà d’une visite du site, l’idée était de donner à voir toute la richesse de ce que nous pourrons y construire.</p>
+<div class="news-full"><p>Après 3 ans de préparation de ce projet, cette journée nous a permis de montrer concrètement le potentiel de ce lieu d’accueil. Au-delà d’une visite du site, l’idée était de donner à voir toute la richesse de ce que nous pourrons y construire.</p><p>Les jeunes ont pris la parole pour raconter leur situation, les professionnels du médico-social ont confirmé le besoin immense de lieux accueillant ces jeunes sans solution, les familles ont témoigné de l’énorme intérêt pour le répit que la structure pourra leur procurer.</p><p>Un énorme merci aux participants autant qu’aux petites mains qui ont préparé l’évènement !</p></div>
+<a href="#actu-inauguration" data-news="actu-inauguration" style="margin-top: auto; padding-top: 6px; font-weight: 700">Lire la suite</a>
+</div>
+</article>
+<article class="news-card" style="display: flex; flex-direction: column; border-radius: 28px; overflow: hidden; background: #fffdf8; border: 3px solid #141414">
+<a href="#actu-fete-agriculture-paysanne" data-news="actu-fete-agriculture-paysanne" aria-label="Lire : Fête de l’agriculture paysanne" style="display: block; height: 220px; overflow: hidden; background: #e9e4da"><img class="news-img" src="public/img/actualites/fete-agriculture-paysanne-20-septembre-800.webp" data-full="public/img/actualites/fete-agriculture-paysanne-20-septembre.webp" width="800" height="429" decoding="async" alt="Fête de l’agriculture paysanne au tiers-lieu Macondo" loading="lazy" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center"></a>
+<div style="display: flex; flex-direction: column; gap: 10px; flex: 1; padding: 24px 26px 28px">
+<span class="cond news-date" style="font-size: 16px; font-weight: 700; color: #cc0347">20 septembre 2026</span>
+<h3 class="news-title" style="margin: 0; font-size: 24px; line-height: 1.2; font-weight: 800"><a href="#actu-fete-agriculture-paysanne" data-news="actu-fete-agriculture-paysanne" style="color: inherit; text-decoration: none">Fête de l’agriculture paysanne</a></h3>
+<p class="news-excerpt" style="margin: 0; font-size: 17px; line-height: 1.5; color: #333">Quel plaisir, après 3 ans sans évènements, de voir revivre le tiers-lieu Macondo dans le cadre de cette journée dédiée à l’agro-écologie et à la paysannerie locale.</p>
+<div class="news-full"><p>Quel plaisir, après 3 ans sans évènements, de voir revivre le tiers-lieu Macondo dans le cadre de cette journée dédiée à l’agro-écologie et à la paysannerie locale.</p><p>Organisée par la Confédération paysanne, la journée avait un programme chargé : marché de producteurs, drag show paysan, spectacle de marionnettes, la Coco Fanfare, etc.</p></div>
+<a href="#actu-fete-agriculture-paysanne" data-news="actu-fete-agriculture-paysanne" style="margin-top: auto; padding-top: 6px; font-weight: 700">Lire la suite</a>
+</div>
+</article>
+<article class="news-card" style="display: flex; flex-direction: column; border-radius: 28px; overflow: hidden; background: #fffdf8; border: 3px solid #141414">
+<a href="#actu-rencontres-prader-willi" data-news="actu-rencontres-prader-willi" aria-label="Lire : Rencontres de l’association Prader-Willi à Macondo" style="display: block; height: 220px; overflow: hidden; background: #e9e4da"><img class="news-img" src="public/img/actualites/rencontres-prader-willi-27-septembre-800.webp" data-full="public/img/actualites/rencontres-prader-willi-27-septembre.webp" width="800" height="1067" decoding="async" alt="Parents et jeunes réunis bras levés devant le mur peint « Les Amicondos »" loading="lazy" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 40%"></a>
+<div style="display: flex; flex-direction: column; gap: 10px; flex: 1; padding: 24px 26px 28px">
+<span class="cond news-date" style="font-size: 16px; font-weight: 700; color: #cc0347">27 septembre 2026</span>
+<h3 class="news-title" style="margin: 0; font-size: 24px; line-height: 1.2; font-weight: 800"><a href="#actu-rencontres-prader-willi" data-news="actu-rencontres-prader-willi" style="color: inherit; text-decoration: none">Rencontres de l’association Prader-Willi à Macondo</a></h3>
+<p class="news-excerpt" style="margin: 0; font-size: 17px; line-height: 1.5; color: #333">Dimanche 27 septembre avaient lieu les rencontres du syndrome de Prader-Willi, une maladie génétique rare. Ce cercle de parole a permis aux parents de partager les joies comme les peines, de se donner des trucs et astuces pour se débrouiller dans un système qui peine à prendre en charge nos enfants.</p>
+<div class="news-full"><p>Dimanche 27 septembre avaient lieu les rencontres du syndrome de Prader-Willi, une maladie génétique rare. Ce cercle de parole a permis aux parents de partager les joies comme les peines, de se donner des trucs et astuces pour se débrouiller dans un système qui peine à prendre en charge nos enfants.</p><p>Pour les jeunes, la magie de Macondo a opéré simplement. Balade dans cet éco-site magnifique pour aller à la rencontre des chevaux de Rando Ranch, puis chez Bruno, l’éleveur de chèvres voisin, qui nous a expliqué son métier et donné des fromages frais. Macondo est parfait pour ces moments qu’on ne pourrait pas avoir en ville, qui offrent un vrai sas de décompression aux héros ordinaires que sont les aidants d’un enfant handicapé.</p></div>
+<a href="#actu-rencontres-prader-willi" data-news="actu-rencontres-prader-willi" style="margin-top: auto; padding-top: 6px; font-weight: 700">Lire la suite</a>
+</div>
+</article>
+</div>
+<article class="g2" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 24px 40px; align-items: center; padding: 32px; border-radius: 28px; background: #f4a603; color: #141414">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<span class="cond" style="align-self: flex-start; padding: 4px 12px; border-radius: 8px; background: #141414; color: #ffffff; font-size: 16px; font-weight: 700">Feuille de route</span>
+<h3 style="margin: 0; font-size: 30px; line-height: 1.1; font-weight: 800"><span style="color: #9e0035">2026 :</span> faire naître le lieu</h3>
+</div>
+<ol style="margin: 0; padding-left: 22px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 6px 32px; font-size: 17px; line-height: 1.4; font-weight: 600">
+<li>Constituer le collectif de familles</li>
+<li>Créer les partenariats médico-sociaux</li>
+<li>Aménager les espaces</li>
+<li>Trouver les financements</li>
+<li>Accueillir les premiers jeunes</li>
+<li>Puis renforcer l'encadrement professionnel</li>
+</ol>
+</article>
+</div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="sec" style="position: relative; padding: 96px 48px; background: #fffdf8">
+<div class="g2" style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px; align-items: start">
+<div style="display: flex; flex-direction: column; gap: 18px">
+<span class="hand" style="font-size: 26px; color: #cc0347">Une question, une envie ?</span>
+<h2 style="margin: 0; font-size: 48px; line-height: 1.05; font-weight: 800">Nous contacter</h2>
+<p style="margin: 0; font-size: 19px; line-height: 1.55; color: #2b2b2b">Vous êtes une famille, un·e professionnel·le, une association ou simplement curieux·se ? Écrivez-nous, on vous répond avec plaisir.</p>
+<div style="display: flex; flex-direction: column; gap: 14px; margin-top: 8px; font-size: 18px">
+<div style="display: flex; gap: 14px; align-items: flex-start"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#006c32" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg><span>Tiers-lieu Macondo, Mas Dieu<br>34750 Montarnaud</span></div>
+<div style="display: flex; gap: 14px; align-items: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0040a1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg><a href="mailto:lesamicondos@gmail.com">lesamicondos@gmail.com</a></div>
+<div style="display: flex; gap: 14px; align-items: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#cc0347" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"></path></svg><a href="tel:+33635284803">06 35 28 48 03</a></div>
+</div>
+<div style="display: flex; gap: 12px; margin-top: 10px">
+<a class="btn" href="https://www.instagram.com/amicondos34/" target="_blank" rel="noopener" aria-label="Instagram des Amicondos" style="width: 52px; height: 52px; border-radius: 16px; background: #141414; color: #ffffff; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"></circle></svg></a>
+<a class="btn" href="https://www.facebook.com/p/Les-Amicondos-61593495990401/" target="_blank" rel="noopener" aria-label="Facebook des Amicondos" style="width: 52px; height: 52px; border-radius: 16px; background: #0040a1; color: #ffffff; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h-3a4 4 0 0 0-4 4v3H5v4h3v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+</div>
+</div>
+<form id="contact-form" style="display: flex; flex-direction: column; gap: 18px; padding: 36px; border-radius: 28px; background: #ffffff; border: 3px solid #141414; box-shadow: 10px 10px 0 #f4a603">
+<input type="hidden" name="subject" value="Nouveau message depuis le site Les Amicondos">
+<input type="hidden" name="from_name" value="Site Les Amicondos">
+<input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="display: none">
+<div class="g2" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px">
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 700; font-size: 16px">Votre nom<input type="text" name="nom" required autocomplete="name" style="min-height: 48px; padding: 0 14px; border-radius: 12px; border: 2px solid #141414; background: #fffdf8; font-size: 17px"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 700; font-size: 16px">Votre e-mail<input type="email" name="email" required autocomplete="email" style="min-height: 48px; padding: 0 14px; border-radius: 12px; border: 2px solid #141414; background: #fffdf8; font-size: 17px"></label>
+</div>
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 700; font-size: 16px">Vous êtes…
+<select name="profil" style="min-height: 48px; padding: 0 12px; border-radius: 12px; border: 2px solid #141414; background: #fffdf8; font-size: 17px">
+<option>Une famille / un proche aidant</option>
+<option>Un·e professionnel·le médico-social</option>
+<option>Une association ou une institution</option>
+<option>Bénévole, curieux·se…</option>
+</select>
+</label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 700; font-size: 16px">Votre message<textarea name="message" rows="5" required style="padding: 12px 14px; border-radius: 12px; border: 2px solid #141414; background: #fffdf8; font-size: 17px; resize: vertical"></textarea></label>
+<button type="submit" class="btn" style="align-self: flex-start; min-height: 52px; padding: 0 30px; border: 0; border-radius: 999px; background: #cc0347; color: #ffffff; font-size: 18px; font-weight: 700; cursor: pointer">Envoyer le message</button>
+<p id="contact-status" role="status" aria-live="polite" style="margin: 0; font-size: 17px; font-weight: 700" hidden></p>
+</form>
+</div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="sec" style="padding: 48px; background: #141414; color: #ffffff">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px">
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="width: 64px; height: 64px; border-radius: 16px; background: #ffffff; display: flex; align-items: center; justify-content: center"><img src="public/img/logo-cube.webp" width="104" height="109" loading="lazy" decoding="async" alt="" style="width: 50px; height: 52px"></div>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 20px; font-weight: 800">Les Amicondos</span>
+<span style="font-size: 15px; color: #d6d6d6">Association · Tiers-lieu Macondo, Montarnaud (34)</span>
+</div>
+</div>
+<div style="display: flex; gap: 6px" aria-hidden="true">
+<div style="width: 18px; height: 18px; border-radius: 5px; background: #cc0347"></div>
+<div style="width: 18px; height: 18px; border-radius: 5px; background: #2f6fd6"></div>
+<div style="width: 18px; height: 18px; border-radius: 5px; background: #16a35a"></div>
+<div style="width: 18px; height: 18px; border-radius: 5px; background: #f4a603"></div>
+</div>
+<nav aria-label="Réseaux sociaux" style="display: flex; gap: 20px; font-size: 16px; font-weight: 600">
+<a href="https://www.instagram.com/amicondos34/" target="_blank" rel="noopener" style="color: #ffffff">Instagram</a>
+<a href="https://www.facebook.com/p/Les-Amicondos-61593495990401/" target="_blank" rel="noopener" style="color: #ffffff">Facebook</a>
+<a href="https://www.youtube.com/watch?v=3jp5ofR3fl8" target="_blank" rel="noopener" style="color: #ffffff">YouTube</a>
+<a href="#" style="color: #ffffff">Mentions légales</a>
+</nav>
+</div>
+</footer>
+
+</div>
+
+
+
+<script>
+(function(){
+  var K = '#141413', BLUE = '#1381c4', YELLOW = '#fecd35', PINK = '#eb597c', GREEN = '#14963d', GROUT = '#ffffff';
+  var TOP = [[K, BLUE, YELLOW], [K, PINK, K], [YELLOW, K, GREEN]];
+  var BLACK1 = [[K, K, K]], BLACK2 = [[K, K, K], [K, K, K]], BLACK3 = [[K, K, K], [K, K, K], [K, K, K]];
+  var LOWER = { pz: [[K, K, BLUE], [GREEN, K, K]], px: [[K, K, PINK], [K, K, K]], mx: BLACK2, mz: BLACK2 };
+  var UPPER = { pz: BLACK1, px: BLACK1, mx: BLACK1, mz: BLACK1 };
+
+  var YAW = -36 * Math.PI / 180, PITCH = 34 * Math.PI / 180, TOP_OFFSET = -13 * Math.PI / 180;
+  var TURN_MS = 650, HOLD_MS = 350, REVERSE_SPEED = 1.8;
+
+  function rotY(p, a){ var c = Math.cos(a), s = Math.sin(a); return [c*p[0] + s*p[2], p[1], -s*p[0] + c*p[2]]; }
+
+  function roundedRect(inset, r){
+    var pts = [], lo = inset, hi = 1 - inset, n = 6;
+    [[hi-r, hi-r, 0], [lo+r, hi-r, 90], [lo+r, lo+r, 180], [hi-r, lo+r, 270]].forEach(function(c){
+      for (var i = 0; i <= n; i++){ var a = (c[2] + 90*i/n) * Math.PI/180; pts.push([c[0] + r*Math.cos(a), c[1] + r*Math.sin(a)]); }
+    });
+    return pts;
+  }
+  var STICKER = roundedRect(0.075, 0.14), BASE = roundedRect(-0.03, 0.2);
+
+  function facePolys(origin, U, V, grid, twist){
+    var rows = grid.length, cols = grid[0].length, out = [];
+    function pt(u, v){ return rotY([0,1,2].map(function(i){ return origin[i] + u*U[i] + v*V[i]; }), twist); }
+    out.push([BASE.map(function(q){ return pt(q[0]*cols, q[1]*rows); }), GROUT]);
+    grid.forEach(function(row, r){ row.forEach(function(color, c){
+      out.push([STICKER.map(function(q){ return pt(c + q[0], r + q[1]); }), color]);
+    }); });
+    return out;
+  }
+
+  function facesCamera(n, twist){
+    n = rotY(rotY(n, twist), YAW);
+    return Math.sin(PITCH)*n[1] + Math.cos(PITCH)*n[2] > 1e-6;
+  }
+
+  function block(y0, y1, top, sides, twist){
+    var faces = [
+      [[0,1,0], facePolys([-1.5,y1,-1.5], [1,0,0], [0,0,1], top, twist)],
+      [[0,-1,0], facePolys([-1.5,y0,-1.5], [1,0,0], [0,0,1], BLACK3, twist)],
+      [[0,0,1], facePolys([-1.5,y1,1.5], [1,0,0], [0,-1,0], sides.pz, twist)],
+      [[1,0,0], facePolys([1.5,y1,1.5], [0,0,-1], [0,-1,0], sides.px, twist)],
+      [[-1,0,0], facePolys([-1.5,y1,-1.5], [0,0,1], [0,-1,0], sides.mx, twist)],
+      [[0,0,-1], facePolys([1.5,y1,-1.5], [-1,0,0], [0,-1,0], sides.mz, twist)]
+    ];
+    return faces.filter(function(f){ return facesCamera(f[0], twist); })
+                .reduce(function(acc, f){ return acc.concat(f[1]); }, []);
+  }
+
+  function draw(ctx, size, zoom, angle){
+    var scale = size * zoom * 64.5 / 360, cx = size / 2, cy = size / 2 + size * 6 / 360;
+    var cp = Math.cos(PITCH), sp = Math.sin(PITCH);
+    ctx.clearRect(0, 0, size, size);
+    block(-1.5, 0.5, BLACK3, LOWER, 0).concat(block(0.5, 1.5, TOP, UPPER, TOP_OFFSET + angle)).forEach(function(poly){
+      ctx.beginPath();
+      poly[0].forEach(function(p, i){
+        p = rotY(p, YAW);
+        var x = cx + p[0]*scale, y = cy - (cp*p[1] - sp*p[2])*scale;
+        if (i) ctx.lineTo(x, y); else ctx.moveTo(x, y);
+      });
+      ctx.closePath();
+      ctx.fillStyle = poly[1];
+      ctx.fill();
+    });
+  }
+
+  function ease(t){ return 0.5 - 0.5*Math.cos(Math.PI*t); }
+  var PERIOD = TURN_MS + HOLD_MS;
+  function angleAt(t){
+    var q = Math.floor(t / PERIOD), local = t - q*PERIOD;
+    return (q + ease(Math.min(1, local / TURN_MS))) * Math.PI / 2;
+  }
+
+  var ready = new WeakSet();
+  function setup(canvas){
+    if (ready.has(canvas)) return;
+    ready.add(canvas);
+    var ctx = canvas.getContext('2d'), size = 0, t = 0, active = false, last = null, raf = null;
+    var zoom = parseFloat(canvas.dataset.zoom) || 1;
+    var target = canvas.closest('a') || canvas;
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function resize(){
+      var dpr = window.devicePixelRatio || 1;
+      size = canvas.clientWidth;
+      if (!size) return;
+      canvas.width = canvas.height = Math.round(size * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      draw(ctx, size, zoom, angleAt(t));
+    }
+
+    function tick(now){
+      var dt = last === null ? 16 : now - last;
+      last = now;
+      if (active){
+        t += dt;
+      } else {
+        var q = Math.floor(t / PERIOD);
+        if (t - q*PERIOD > TURN_MS) t = q*PERIOD + TURN_MS;
+        t = Math.max(0, t - dt*REVERSE_SPEED);
+      }
+      draw(ctx, size, zoom, angleAt(t));
+      if (active || t > 0) raf = requestAnimationFrame(tick);
+      else { raf = null; last = null; }
+    }
+
+    function start(){ if (reduceMotion) return; active = true; if (!raf){ last = null; raf = requestAnimationFrame(tick); } }
+    function stop(){ active = false; if (!raf && t > 0){ last = null; raf = requestAnimationFrame(tick); } }
+
+    target.addEventListener('mouseenter', start);
+    target.addEventListener('mouseleave', stop);
+    target.addEventListener('focus', start);
+    target.addEventListener('blur', stop);
+    if (target === canvas){
+      canvas.addEventListener('touchstart', function(){ active ? stop() : start(); }, { passive: true });
+    }
+    new ResizeObserver(resize).observe(canvas);
+    resize();
+  }
+
+  function scan(){ document.querySelectorAll('canvas.amicondos-cube').forEach(setup); }
+  new MutationObserver(scan).observe(document.documentElement, { childList: true, subtree: true });
+  scan();
+})();
+</script>
+<script>
+document.addEventListener('click', function(e){
+  var link = e.target.closest && e.target.closest('a[data-yt]');
+  if (!link) return;
+  e.preventDefault();
+  var box = document.createElement('div');
+  box.setAttribute('style', link.getAttribute('style'));
+  var frame = document.createElement('iframe');
+  frame.src = 'https://www.youtube-nocookie.com/embed/' + link.dataset.yt + '?autoplay=1&rel=0';
+  frame.title = 'Vidéo de présentation des Amicondos';
+  frame.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+  frame.allowFullscreen = true;
+  frame.setAttribute('style', 'position: absolute; inset: 0; width: 100%; height: 100%; border: 0');
+  box.appendChild(frame);
+  link.replaceWith(box);
+});
+</script>
+<script>
+document.addEventListener('submit', async function(e){
+  var form = e.target;
+  if (form.id !== 'contact-form') return;
+  e.preventDefault();
+  var btn = form.querySelector('button[type="submit"]');
+  var status = form.querySelector('#contact-status');
+  var formData = new FormData(form);
+  formData.append('access_key', '5a3fb266-0889-4526-8e46-937f0724df51');
+  var originalText = btn.textContent;
+  btn.textContent = 'Envoi en cours…';
+  btn.disabled = true;
+  status.hidden = true;
+  function show(msg, ok){
+    status.textContent = msg;
+    status.style.color = ok ? '#006c32' : '#cc0347';
+    status.hidden = false;
+  }
+  try {
+    var response = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: formData });
+    var data = await response.json();
+    if (response.ok) {
+      show('Merci ! Votre message a bien été envoyé, nous vous répondrons rapidement.', true);
+      form.reset();
+    } else {
+      show('Le message n\u2019a pas pu être envoyé : ' + data.message, false);
+    }
+  } catch (err) {
+    show('Le message n\u2019a pas pu être envoyé. Vérifiez votre connexion et réessayez, ou écrivez-nous à lesamicondos@gmail.com.', false);
+  } finally {
+    btn.textContent = originalText;
+    btn.disabled = false;
+  }
+});
+</script>
+<script>
+(function(){
+  var dialog = null;
+  function build(){
+    dialog = document.createElement('dialog');
+    dialog.className = 'news-modal';
+    dialog.setAttribute('aria-labelledby', 'news-modal-title');
+    dialog.innerHTML =
+      '<button type="button" class="news-modal-close" aria-label="Fermer">×</button>' +
+      '<a class="news-modal-media" target="_blank" rel="noopener" title="Voir l’image en grand"><img alt=""></a>' +
+      '<div class="news-modal-body">' +
+        '<span class="cond" style="font-size: 17px; font-weight: 700; color: #cc0347"></span>' +
+        '<h3 id="news-modal-title"></h3>' +
+        '<div class="news-modal-text" style="display: flex; flex-direction: column; gap: 14px"></div>' +
+      '</div>';
+    dialog.querySelector('.news-modal-close').addEventListener('click', function(){ dialog.close(); });
+    dialog.addEventListener('click', function(e){ if (e.target === dialog) dialog.close(); });
+    dialog.addEventListener('close', function(){
+      if (location.hash.indexOf('#actu-') === 0) history.replaceState(null, '', location.pathname + location.search + '#actualites');
+    });
+    document.body.appendChild(dialog);
+  }
+  function open(id){
+    var link = document.querySelector('[data-news="' + id + '"]');
+    var card = link && link.closest('.news-card');
+    if (!card) return false;
+    if (!dialog) build();
+    var img = card.querySelector('.news-img');
+    var full = img.dataset.full || img.src;
+    dialog.querySelector('.news-modal-media').href = full;
+    var big = dialog.querySelector('.news-modal-media img');
+    big.src = full;
+    big.alt = img.alt;
+    dialog.querySelector('.cond').textContent = card.querySelector('.news-date').textContent;
+    dialog.querySelector('h3').textContent = card.querySelector('.news-title').textContent;
+    dialog.querySelector('.news-modal-text').innerHTML = card.querySelector('.news-full').innerHTML;
+    if (!dialog.open) dialog.showModal();
+    dialog.scrollTop = 0;
+    return true;
+  }
+  document.addEventListener('click', function(e){
+    var link = e.target.closest && e.target.closest('a[data-news]');
+    if (!link) return;
+    e.preventDefault();
+    if (open(link.dataset.news)) history.replaceState(null, '', '#' + link.dataset.news);
+  });
+  function fromHash(tries){
+    var id = location.hash.slice(1);
+    if (id.indexOf('actu-') !== 0) return;
+    if (!open(id) && tries > 0) setTimeout(function(){ fromHash(tries - 1); }, 200);
+  }
+  window.addEventListener('hashchange', function(){ fromHash(0); });
+  fromHash(25);
+})();
+</script>
+</body></html>
